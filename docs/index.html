@@ -11,12 +11,21 @@
     <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;1,700&display=swap" rel="stylesheet">
 
     <style>
-        
-        #container {
-            display: grid;
-  grid-template-columns: auto auto;
-  padding: 50px;
-  gap: 80px;
+
+.picsHolder { grid-area: picsHolder; }
+.NbsMastersBox { grid-area: NbsMastersBox; }
+#pageDividerBlueBackground{ grid-area:pageDividerBlueBackground; }
+
+
+#container {
+  display: grid;
+  grid-template-areas:
+    'picsHolder NbsMastersBox'
+    'pageDividerBlueBackground pageDividerBlueBackground';
+  gap: 10px;
+  padding: 10px;
+}
+
         }
         .picsHolder {
             width: 500px;
@@ -79,7 +88,7 @@ h1{
     align-content: center;
     justify-content: center;
     gap: 10px;
-    margin-top: 20px;
+    margin-top: -100px;
     padding: 20px;
     background-color: rgba(1, 1, 46, 0.945);
     width: 100%;
