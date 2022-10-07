@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;1,700&display=swap" rel="stylesheet">
+
+    <style>
+        
+        #container {
+            display: grid;
+  grid-template-columns: auto auto;
+  padding: 50px;
+  gap: 80px;
+        }
+        .picsHolder {
+            width: 500px;
+            height: 50px;
+        }
+
+        #pinkDivider{
+            background-color: #d0126a;
+            height: 5px;
+            width: 300px;
+        }
+#boxStyle{
+margin: 20px;
+padding: 20px;
+display: flex;
+flex-direction: column;
+gap:20px;
+
+}
+
+.NbsMastersBox {
+height: 450px;
+  width: 550PX;
+  border-radius: 20px;
+  box-shadow:
+  0 2.8px 2.2px rgba(0, 0, 0, 0.034),
+  0 6.7px 5.3px rgba(0, 0, 0, 0.048),
+  0 12.5px 10px rgba(0, 0, 0, 0.06),
+  0 22.3px 17.9px rgba(0, 0, 0, 0.072),
+  0 41.8px 33.4px rgba(0, 0, 0, 0.086),
+  0 100px 80px rgba(0, 0, 0, 0.12)
+}
+h1{
+    font-size: 3rem;
+
+}
+#applyNow {
+    background-color: #d0126a;
+    width: 220px;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;;
+  border-radius: 80px;
+}
+
+#applyNow:hover{
+    background-color: #060042;
+}
+
+#pageDividerBlueBackground {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+    gap: 10px;
+    margin-top: 20px;
+    padding: 20px;
+    background-color: rgba(1, 1, 46, 0.945);
+    width: 100%;
+    height: 50px;
+}
+
+.pBox{
+    width: 100px;
+    height: 60px;
+    background-color: white;
+
+}
+.pBox:hover {
+  background-color:  #d0126a;
+  color: white;
+}
+  
+
+.boxContent{
+    margin-left: 15px;
+    padding-top: -20px;
+    border-radius: 100px;
+}
+
+.boxContent:hover {
+    color: white;
+}
+
+
+    </style>
+</head>
+<header id="container">
+
+   <div class = "picsHolder">
+    <img src="images/image1.png" alt="Innovative Students">
+   </div>
+
+   <div class = 'NbsMastersBox'>
+    <div id = 'boxStyle'>
+      <h1> Neuroscience Business Masters School</h1>
+
+     <p> Join our Innovative and creative community for an 
+        exciting and rewarding experience with Neuroscience
+        Business School´s business programs. </p>
+
+        <div id = 'pinkDivider'>
+
+        </div>
+
+        <button id = 'applyNow'>
+            Apply Now!
+        </button>
+    </div>
+
+   </div>
+
+   <div id="pageDividerBlueBackground">
+    <div id = "brochurepdf" class="pBox">
+        <h5 class="boxContent"> Download brochure pdf</h5>
+
+    </div>
+
+    <div id = "contactUs" class="pBox">
+        <h5 class="boxContent"> Contact Us</h5>
+
+    </div>
+
+    <div id = "apply" class="pBox">
+        <h5 class="boxContent"> Apply Now!</h5>
+
+    </div>
+
+
+   </div>
+
+</header>
+<body>
+    
+</body>
+</html>
